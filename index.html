@@ -1,17 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Swiss Searcher | @evangenest</title>
+  <title>Swiss Searcher | @evangenest</title>
 </head>
+
 <body>
-
- <input name="firstname" type="text"> 
-
- <select name="methodsRE">
-  <option value="match">Return a list of found words</option>
-  <option value="search">Return first found position</option>
-  <option value="search">Return all found positions</option>
-  <option value="replace">Replace original word with new word</option>
-</select> 
+  <div>
+    <h1>Regular Expression Tester</h1>
+    <h3>Select one text and one type of search:</h3>
+    <select name="noun">
+      <option value="server">server log</option>
+      <option value="bash">shell history (Mac/BSD)</option>
+      <option value="machievelli">The Prince(eng)</option>
+      <option value="dupry">The Little Prince(eng)</option>
+    </select> 
+    <select name="verb">
+      <option value="match">Return a list of found words (default)</option>
+      <option value="search">Return first found position</option>
+      <option value="search">Return all found positions</option>
+      <option value="replace">Replace original word with new word</option>
+    </select> 
+    <h3>Regular Expression to Use</h3>
+    <input name="requestedRE" type="text">
+    <p>Examples to try:<br>the</p>
+  </div>
+    <h3>
+      Results:<br/>
+      Total words:<br/>
+      Time of Search:
+    </h3>
+  <div>
+    
+  </div>
 </body>
 </html>
