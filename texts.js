@@ -1,4 +1,4 @@
-{
+var texts = {
 
 petit: `
                             1970
@@ -34,4 +34,4 @@ Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa
 `
 };
 
-module.exports = textFile;
+module.exports = texts;
