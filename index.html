@@ -9,9 +9,14 @@
     <h1>Regular Expression Tester</h1>
     <h3>Select one text and one type of search:</h3>
     <select name="noun">
-      <option value="server">server log</option>
+    <optgroup label="Artists">
+      <option  type="text" onselect="speak()" value="dylan">Bob Dylan</option>
       <option value="bash">shell history (Mac/BSD)</option>
-      <option value="machievelli">The Prince(eng)</option>
+      <option value="ghost">Ghostface Killer</option>
+    </optgroup>
+    <optgroup label="Leaders">
+      <option value="eisenhower">President Eisenhower</option>
+      <option value="macbeth">Shakespeare</option>
       <option value="dupry">The Little Prince(eng)</option>
     </select> 
     <select name="verb">
@@ -22,6 +27,16 @@
     </select> 
     <h3>Regular Expression to Use</h3>
     <input name="requestedRE" type="text">
+    <form> 
+      <div>
+        ...
+        <label for="example">Let's submit some text</label>
+        <input id="example" type="text" name=texts.>
+      </div>
+      <div>
+        <input type="submit" value="Send">
+      </div>
+    </form>
     <p>Examples to try:<br>the</p>
   </div>
     <h3>
@@ -33,4 +48,8 @@
     
   </div>
 </body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="app.js"></script>
+<link href="craig1.css" rel="stylesheet">
+
 </html>
