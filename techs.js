@@ -1,12 +1,6 @@
+const localObject = {
 
- 
-  
-       
-         brad-schiff-kpg/README.md
-     1
-     pwd
-  > temp2.txt 
-  brew install emacs-plus
+  bash: `brew install emacs-plus
   history | awk '$2 == "git" {print $1 " " $3}' > history.txt 
   man apachectl
   man apachectl stop
@@ -42,16 +36,6 @@
  ./newlineSquasher.sh data.txt 
  ./printCleanHistory.sh 
  ./sedComma.sh data.txt 
- /Applications/Emacs.app/Contents/MacOS/Emacs -nw
- /Applications/Utilities/Disk\ Utility.app/
- 0
- 1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c
- Apache 2.4 comes pre-packaged in macOS 10.12 Sierra, check the version to verify
- Hello Anu,
- LS
- That2Temp
- `
- a
  apachectl -help
  apachectl fullstatus
  apachectl help
@@ -912,7 +896,7 @@
  git commit -m "Try out the JSON.parse(x) method.  It seems to be built-in to javascript."
  git commit -m "Try several values for the U2 div javascript."
  git commit -m "Turn first word yellow on footer with id."
- git commit -m "Turn first word yellow on footer with id."`
+ git commit -m "Turn first word yellow on footer with id."
  git commit -m "Tweek fontsize on the  miniblox in div 8."
  git commit -m "Type in, by rote, the divs, h1, et al, that will make the html.   Don't run or compile it yet; just give it a visual linting."
  git commit -m "Undo syntax."
@@ -1413,7 +1397,7 @@
  ls Disk\ Utility.app/Contents/Info.plist 
  ls Disk\ Utility.app/Contents/Info.plist  | grep .app
  ls G*
- ls I```
+ ls I
  ls Library/
  ls app/
  ls base.html 
@@ -1857,4 +1841,9 @@
  which php
  which python
  which python3
- which r
+ which r`
+};
+
+var techsString = JSON.stringify(localObject);
+
+module.exports = techsString;
