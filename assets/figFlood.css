@@ -1,143 +1,100 @@
-/* Based on CSS seen at github.com/verythorough and
-and cssTricks.com */
+/* Based on CSS seen 
+ Jon Duckett's Fig list */
 
-/* who knew!  css can handle variables:; */
+/* who knew!  css can handle variables:; 
 :root {
     --lightRock: rgb(194, 186, 172); 
     --darkRock: rgb(76, 77, 75);
     --skyColor: rgb(124, 172, 255);
     --palerSky: rgb(165, 220, 255 );
+}   
+.room {
+   font-family: Oswald, monospace;
 }
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body {
-  margin: 0;
-  text-align: center;
+  background-color: #000;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  margin: 0; 
+  padding: 0;}
+
+#page {
+  background-color: #403c3b;
+  margin: 0 auto 0 auto;}
+  /* Responsive page rules at bottom of style sheet */
+#headerWBG {
+  background-image: url(assets/dockShot.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 75px;
+  line-height: 75px;
+  width: 517px;
+  margin: 0 auto 0 auto;
+  padding: 30px 10px 20px 10px;
+  /* designed for a h1 block */
 }
 
-.room {
-  font-family: sanchez-regular, sans-serif;
-}
-
-#provenence {
-  color: white;
-}
-
-#site-header {
-  padding: 0.5em 2%;
-}
 
 h1 {
-  font-weight: lighter;
-  font-size: 3em;
-  color: var(--skyColor);
-  margin: 0.2em;
-  text-shadow: 1px 1px yellow;
-
+  text-align: center;
+  text-indent: -1000%;
+  line-height: 75px;
 }
 
+h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin: 0 0 23px 0;}
 
-header, p {
-  xcolor: var(--palerSky);
-  font-weight: lighter;
-}
+.aa {
+  background-color: #584f4d;
+  border:none;
+  padding: 0;
+  margin: 0;}
 
+.bb {
+  background-color: #ec8b68;
+  color: #fff;
+  border-top: 1px solid #fe9772;
+  border-bottom: 1px solid #9f593f;
+  font-size: 24px;
+  letter-spacing: .05em;
+  list-style-type: none;
+  text-shadow: 2px 2px 1px #9f593f;
+  height: 50px;
+  padding-left: 1em;
+  padding-top: 10px;}
 
-/* (2) Anything besides span span span breaks the monoline.*/
-/* (3) PULLINg to the right should be doable though.*/
-/**/
-/**/
+.cc {
+  background-color: #d7666b;
+  color: #fff;
+  text-shadow: 2px 2px 1px #914141;
+  border-top: 1px solid #e99295;
+  border-bottom: 1px solid #914141;}
 
+.dd {
+  background-color: #6cc0ac;
+  color: #fff;
+  text-shadow: 2px 2px 1px #3b6a5e;
+  border-top: 1px solid #7ee0c9;
+  border-bottom: 1px solid #3b6a5e;}
 
-.tight {
-  padding: auto, 0px;
-}
-
-span {
-  color: var(--lightRock);
-  text-align: right;
-  margin: 0px;
-  padding: 0px;
-} /* note SPECIFIC CHILD */
-
-.fab.fa-linkedin, .fab.fa-twitter, .fab.fa-github { 
-  color: var(--lightRock);
-  margin-left:  40px;
-  margin-right: 0px;
-}
-
-/*****footer end**********/
-
-.content {
-  background-color: var(--lightRock);
-  min-height: 160px; /* TODO units inconsistant... */
-
-}
-#site-header {
-  background-color: rgb(194, 186, 172);
-}
-
-#pond {
-  display: flex;
-  justify-content: space-around; 
-  align-items: center; 
-  max-height: 160px;
-}
-
-/* Dad !!!!!!!!!!! */
-/*******mothballed**/
-.bg-image {
-  background-image: url("images/dadsEnergy.png");
-  /* Full height */
-  height: 100%;
-  /* Center and scale the image nicely */
-  background-position: center;
+.ee {
+  background-color: #999;
+  color: #fff;
+  background-image: url("../images/icon-trash.png");
+  background-position: center, right;
   background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.blox {
-  width: 120px;
-  height: 120px;
-  margin: 20px auto ;
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  color: var(--lightRock);
-  background-color: var(--darkRock);
-  font-size: 26px;
-}
+  border-top: 1px solid #666;
+  text-shadow: 2px 2px 1px #333;}
 
 
-/* links           */
-/*******************/
-a:xlink {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-div:hover {
-  box-shadow: 3px 3px white;
-
-}
-
-
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-
+#scriptResults {
+  padding-bottom: 10px;}
