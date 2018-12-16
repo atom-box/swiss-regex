@@ -21,6 +21,9 @@ body {
   margin: 0; 
   padding: 0;
   color: white;}
+#mainBody {
+  padding: 10px;
+}
 
 #page {
   background-color: #403c3b;
@@ -49,9 +52,18 @@ h1 {
 #leftPane{
   background-color: white;
   color: black;
+  max-width: 520px;
+  min-width: 350px;
+  margin: 10px;
+  padding: 10px;
 }
 
-#rightPane{}
+#rightPane{
+  max-width: 520px;
+  min-width: 350px;
+  margin: 10px;
+  padding: 10px;
+}
 
 .zz {
   xcolor: #fff;
