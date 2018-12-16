@@ -30,7 +30,6 @@ header {
   background-image: url(./dockShot.png);
   background-repeat: no-repeat;
   background-position: center center;
-  xheight: 75px;
   line-height: 75px;
   margin: 0 auto 0 auto;
   padding: 30px 10px 20px 10px;
@@ -44,10 +43,13 @@ h1 {
   line-height: 75px;
   margin: auto;
   color: black;
-  text-shadow: 2px 2px 1px white;
+  text-shadow: 2px 2px 1px rgb(243, 133, 10) ;
 }
 
-#leftPane{}
+#leftPane{
+  background-color: white;
+  color: black;
+}
 
 #rightPane{}
 
