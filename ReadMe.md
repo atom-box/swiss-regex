@@ -1,6 +1,5 @@
 To Do:
-*   Write External file as json
-*   remove ssh, sudo, line#s, redundants from history
+*   Add a modicum of CSS
 *   button brings input
 *   output appears
 *   the RegEx logic
