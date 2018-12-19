@@ -40,6 +40,11 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;}
 
+h1 {
+  font-family: 'sanchez-regular', courier,  monospace;
+
+}
+
 .flexContainer {
   display: flex;
 }
