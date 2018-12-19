@@ -9,4 +9,8 @@ let shakespearesString = import('./data/shakespeares.js');
 let shakespeares = JSON.parse(shakespearesString);
 */
 console.log(`What? Imported thingie is ${ artists.dylan}`);
-console.log(`The size of the loaded DYLAN, is ${artists.dylan.length}.`)
+console.log(`The size of the loaded DYLAN, is ${artists.dylan.length}.`);
+document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+
+  });
