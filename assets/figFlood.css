@@ -31,11 +31,12 @@ a { color: #4183c4; text-decoration: none; }
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body {
-  xbackground-color: #000;
+  /* fallback if img unavailable */
+  background-color: #000;
   font-family: 'Oswald', 'Futura', sans-serif;
   margin: 0; 
   padding: 0;
-  background: url('/Users/evan/Dropbox/code/swiss-regex/assets/selmaBridge.png') ;
+  background: url('selmaBridge.png') ;
   background-repeat: no-repeat;
   background-size: 100%;}
 
@@ -48,8 +49,6 @@ body {
   margin: 0 auto 0 auto;}
   /* Responsive page rules at bottom of style sheet */
 header {
-  background-image: url(./dockShot.png);
-  background-repeat: no-repeat;
   background-position: center center;
   line-height: 75px;
   margin: 0 auto 0 auto;
