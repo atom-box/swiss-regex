@@ -226,7 +226,8 @@ To be continued.
 
 
 var artistsString = JSON.stringify(localObject);
-module.exports = artistsString;
+
+export { artistsString};
 
 // https://darrenderidder.github.io/talks/ModulePatterns/#/8
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import 
