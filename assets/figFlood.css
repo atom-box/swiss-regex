@@ -1,6 +1,21 @@
 /* Based on CSS seen 
  Jon Duckett's Fig list */
 
+
+
+add 
+like
+this
+a { color: #4183c4; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+
+
+
+
+
+
+
+
 /* who knew!  css can handle variables:; 
 :root {
     --lightRock: rgb(194, 186, 172); 
@@ -16,11 +31,11 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald);
 
 body {
-  background-color: #000;
+  xbackground-color: #000;
   font-family: 'Oswald', 'Futura', sans-serif;
   margin: 0; 
   padding: 0;
-  color: white;}
+  background: lightblue url("/Users/evan/Dropbox/code/swiss-regex/assets/selmaBridge.png") no-repeat fixed center;}
 
 .flexContainer {
   display: flex;
@@ -64,6 +79,8 @@ h1 {
   min-width: 350px;
   margin: 10px;
   padding: 10px;
+  background-image: url("east.jpg");
+
 }
 
 .zz {
