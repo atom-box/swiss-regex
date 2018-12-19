@@ -35,7 +35,9 @@ body {
   font-family: 'Oswald', 'Futura', sans-serif;
   margin: 0; 
   padding: 0;
-  background: lightblue url("/Users/evan/Dropbox/code/swiss-regex/assets/selmaBridge.png") no-repeat fixed center;}
+  background: url('/Users/evan/Dropbox/code/swiss-regex/assets/selmaBridge.png') ;
+  background-repeat: no-repeat;
+  background-size: 100%;}
 
 .flexContainer {
   display: flex;
