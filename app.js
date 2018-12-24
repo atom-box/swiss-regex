@@ -13,5 +13,6 @@ console.log(`The size of the loaded DYLAN, is ${artists.dylan.length}.`);
 document.addEventListener(`DOMContentLoaded`, function(event) {
     console.log(`DOM fully loaded and parsed`);
     console.log(paneTwo.confirm());
+    console.log(`In ${paneTwo.listWindowKeys()}`);
 /*    document.write('<h3>Make me smile.   Make me smile.<\h3>');
 */  });
