@@ -1,40 +1,57 @@
 let paneTwo = {};
 
 paneTwo.confirm = ()=> {
-	const NOW = new Date;
-	return `Nurse: Madam, I am present. ${NOW}`;
+  const NOW = new Date;
+  return `Nurse: Madam, I am present. ${NOW}`;
 }; 
+
+
+/*
+  A method to show what the keys are
+  in 1-Location 2-Navigator 
+  3-History 4-Document
+*/
 
 paneTwo.listWindowKeys =()=> {
 
-	// this array will alternate: LABEL + keyssss ...
-	let wInfo = [];
-	// temp array to hold keys retrieved
-	let someKeys = [];
+  // wInfo Will hold LABEL & KEYS alternatingly
+  let wInfo = [];
+  // temp array to hold keys retrieved
+  let someKeys = [];
 
-	// location object keys
-	wInfo.push("LOCATION ");
-	someKeys = Object.keys(window.location);
-	wInfo = wInfo.concat(someKeys);
+  // location object keys
+  wInfo.push("LOCATION ");
+  someKeys = Object.keys(window.location);
+  wInfo = wInfo.concat(someKeys);
 
-	wInfo.push("NAVIGATOR ");
-	someKeys = Object.keys(window.navigator);
-	wInfo = wInfo.concat(someKeys);
+  wInfo.push("NAVIGATOR ");
+  someKeys = Object.keys(window.navigator);
+  wInfo = wInfo.concat(someKeys);
 
-	// history object
-	wInfo.push("HISTORY ");
-	someKeys = Object.keys(window.history);
-	wInfo = wInfo.concat(someKeys);
-	
-	// document object
-	wInfo.push("DOCUMENT ");
-	someKeys = Object.keys(window.document);
-	wInfo = wInfo.concat(someKeys);
+  // history object
+  wInfo.push("HISTORY ");
+  someKeys = Object.keys(window.history);
+  wInfo = wInfo.concat(someKeys);
+  
+  // document object
+  wInfo.push("DOCUMENT ");
+  someKeys = Object.keys(window.document);
+  wInfo = wInfo.concat(someKeys);
 
-	// navigator object
+  // navigator object
 
-	return wInfo;
+  return wInfo;
 }
+
+/*
+  A method to write RegEx results into the right pane.
+*/
+
+paneTwo.showResults =()=> {
+  console.log(`Stub for paneTwo.showResults ${ Date() }`);
+}
+
+
 
 export {paneTwo};
 
