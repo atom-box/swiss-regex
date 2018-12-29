@@ -39,7 +39,7 @@
         <input id="example" type="text" name=texts.>
       </div>
       <div>
-        <input type="button" value="Search now" onclick="console.log('what?')"></button>
+        <input type="button" value="Search now" onclick="shout(`The button was clicked at ${Date()}`)"></button>
       </div>
     </form>
     <p>Examples to try:<br>the</p>
@@ -50,7 +50,7 @@
       Total words:<br/>
       Time of Search:
     </h3>
-    <img src="images/bob3.png" onclick="console.log('Bobby!')" />
+    <img src="images/bob3.png" onclick="shout(`Line  53  rules. At exactly ${Date()}`)" />
   </div>
 
 </div> <!--end of flexbox flexbnox flexbox    -->
@@ -58,8 +58,15 @@
 
 </body>
 
+<!-- FiX THIS move this to proper .js file --->
+<script>
+  let shout =(m)=> {
+    console.log(`From the HTML: ${m}`);
+  };
+  shout("Lagard...66.");
 
 
+</script>
 
 
 
