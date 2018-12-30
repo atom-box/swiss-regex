@@ -1,7 +1,9 @@
 To Do:
-*   Add a modicum of CSS
+*   wrap paneTwo outputter in button eventlistener
+* take in data from left as a form, as a named <textarea>
 *   button brings input
 *   output appears
+*   Incorporate the CSS from codepen css tricks!
 *   the RegEx logic
 *   As you watch Brad Schiff, add his recommended Git, CSS, Gulp 
 structures
