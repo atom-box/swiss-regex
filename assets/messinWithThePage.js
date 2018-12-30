@@ -45,10 +45,14 @@ paneTwo.listWindowKeys =()=> {
 
 /*
   A method to write RegEx results into the right pane.
+  Add event listenter
 */
 
+
 paneTwo.showResults =()=> {
-  console.log(`Stub for paneTwo.showResults ${ Date() }`);
+  let results = document.getElementById("results");
+  console.log(`results is actually : ${ typeof results }`);
+  console.log(`results is an object: ${ Object === results }`);
 }
 
 

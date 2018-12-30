@@ -21,8 +21,11 @@ btn.onclick = function() {
   document.body.style.backgroundColor = rndCol;
 }
 
+
 let goButton = document.getElementById("go");
-goButton.onclick =()=> console.log(`GO button was pressed at ${Date()} `);
+goButton.onclick = paneTwo.showResults;
+
+
 
 document.addEventListener(`DOMContentLoaded`, function(event) {
     console.log(`DOM fully loaded and parsed`);
