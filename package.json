@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/atom-box/swiss-regex#readme",
   "dependencies": {
-    "bootstrap": "^4.2.1"
+    "bootstrap": "^4.2.1",
+    "normalize.css": "^8.0.1"
   }
 }
