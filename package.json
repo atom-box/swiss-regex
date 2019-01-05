@@ -1,0 +1,25 @@
+{
+  "name": "swiss-regex",
+  "version": "1.0.0",
+  "description": "Input some text, press a button, print search results on the right pane.",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atom-box/swiss-regex.git"
+  },
+  "keywords": [
+    "RegEx"
+  ],
+  "author": "Evan Genest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atom-box/swiss-regex/issues"
+  },
+  "homepage": "https://github.com/atom-box/swiss-regex#readme",
+  "dependencies": {
+    "bootstrap": "^4.2.1"
+  }
+}
