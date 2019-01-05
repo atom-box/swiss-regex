@@ -36,7 +36,7 @@ body {
   font-family: 'Oswald', 'Futura', sans-serif;
   margin: 0; 
   padding: 0;
-  background: url('selmaBridge.png') ;
+  background: url('../assets/selmaBridge.png') ;
   background-repeat: no-repeat;
   background-size: 100%;}
 
