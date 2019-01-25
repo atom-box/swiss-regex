@@ -1,0 +1,89 @@
+Text Compare
+Produced: 01/18/2019 05:00:42 PM
+
+Mode:  Differences
+Left file: /home/scooter/cood/swiss-regex/index.html
+Right file: /home/scooter/cood/swiss-regex/app.js
+<!DOCTYPE html>                                                                                                                                                                                                  <> import { artistsString } from './data/artists.js';
+<html>                                                                                                                                                                                                              //let artistsString = import('./data/artists.js');
+<head>                                                                                                                                                                                                              let artists = JSON.parse(artistsString);
+                                                                                                                                                                                                                    import { paneTwo } from './assets/messinWithThePage.js';
+                                                                                                                                                                                                                    /*//let techsString = import("./data/techs.js");
+  <title>Swiss Searcher | @evangenest</title>                                                                                                                                                                       //let techs = JSON.parse(techsString);
+  <meta charset="utf-8">                                                                                                                                                                                            let leadersString = import('./data/leaders.js');
+</head>                                                                                                                                                                                                             let leaders = JSON.parse(leadersString);
+                                                                                                                                                                                                                    let shakespearesString = import('./data/shakespeares.js');
+<body>                                                                                                                                                                                                              let shakespeares = JSON.parse(shakespearesString);
+  <header>
+    <h1 class="hvr-shrink">Regular Expression Tester</h1>
+  </header>
+                                                                                                                                                                                                                    */
+                                                                                                                                                                                                                    console.log(`The size of the loaded DYLAN, is ${artists.dylan.length}.`);
+ <div class="flexContainer" id="mainBody"> <!------FLEXBOX--------->
+  <div class="aa"  id="leftPane" >
+    <h3>Select one text and one type of search:</h3>
+    <select name="noun">
+    <optgroup label="Artists">
+      <option  type="text" onselect="speak()" value="dylan">Bob Dylan</option>
+      <option value="bash">shell history (Mac/BSD)</option>
+      <option value="ghost">Ghostface Killer</option>
+    </optgroup>
+    <optgroup label="Leaders">
+      <option value="eisenhower">President Eisenhower</option>
+      <option value="macbeth">Shakespeare</option>
+      <option value="dupry">The Little Prince(eng)</option>                                                                                                                                                         var btn1 = document.getElementById('color-button');
+    </select>                                                                                                                                                                                                       function random(number) {
+    <select name="verb">                                                                                                                                                                                              return Math.floor(Math.random()*(number+1));
+      <option value="match">Return a list of found words (default)</option>
+      <option value="search">Return first found position</option>
+      <option value="search">Return all found positions</option>
+      <option value="replace">Replace original word with new word</option>
+    </select>
+    <h3>Regular Expression to Use</h3>
+    <input name="requestedRE" type="text">
+    <form>
+      <div>                                                                                                                                                                                                         }
+        <label for="example">Let's submit some text</label>
+        <input id="example" type="text" name="text">
+      </div>
+      <div>
+        <input id="go-button"  type="button" value="Search now" onclick="shout(`The button was clicked at ${Date()}`)"></button>
+      </div>
+    </form>
+    <button id="color-button">Colorize Border</button>
+  </div> <!--Close leftPane-->
+  <div class="bb" id="rightPane">
+    <form>
+      <textarea cols="30" rows="4" name="results">Results</textarea>
+      <h3 id="total">Total words:<br/></h3 >
+      <h3 id="time">Timi of Search: </h3>
+    </form>
+  </div>
+                                                                                                                                                                                                                    btn1.onclick = function() {
+</div> <!--end of flexbox flexbnox flexbox    -->
+                                                                                                                                                                                                                      var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+                                                                                                                                                                                                                      document.body.style.backgroundColor = rndCol;
+</body>
+                                                                                                                                                                                                                    }
+<!-- FiX THIS move this to proper .js file --->
+<script>
+  let shout =(m)=> {                                                                                                                                                                                                let btn2 = document.getElementById('go-button');
+                                                                                                                                                                                                                    btn2.onclick = paneTwo.showResults;
+    console.log(`From the HTML: ${m}`);
+  };
+  shout("Lagard...66.");
+                                                                                                                                                                                                                    document.addEventListener(`DOMContentLoaded`, function(event) {
+                                                                                                                                                                                                                        console.log(`DOM fully loaded and parsed`);
+</script>
+                                                                                                                                                                                                                        console.log(paneTwo.confirm());
+                                                                                                                                                                                                                        console.log(paneTwo.showResults());
+                                                                                                                                                                                                                        console.log(`In ${paneTwo.listWindowKeys()}`);
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/Sanchez Regular-Webfont/Webfonts/sanchez_regular_macroman/sanchez-font-adder.css" >
+<link rel="stylesheet" type="text/css" href="styles/hoot-hovering.css">
+<script type="module" src="./app.js"></script>
+<link href="styles/figFlood.css" rel="stylesheet">
+                                                                                                                                                                                                                    /*    document.write('<h3>Make me smile.   Make me smile.<\h3>');
+</html>
+                                                                                                                                                                                                                    */  });
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

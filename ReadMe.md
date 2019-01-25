@@ -1,6 +1,7 @@
 To Do:
+*   test test test
 *   wrap paneTwo outputter in button eventlistener
-* take in data from left as a form, as a named <textarea>
+*   take in data from left as a form, as a named <textarea>
 *   button brings input
 *   output appears
 *   Incorporate the CSS from codepen css tricks!
