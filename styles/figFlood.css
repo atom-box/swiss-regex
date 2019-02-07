@@ -1,11 +1,29 @@
 /* Based on CSS seen 
  Jon Duckett's Fig list */
 
+/*
+.under-div {
+  position: relative;
+  size: 50%;
+}
+
+.over-div {
+  position: absolute;
+  top: 340px;
+  left: 70px
+}
+
+.giant-letter {
+  font-size: 60em;
+  text-align: left;
+  border-top: 0;
+  border-left: 0;
+  font-family: monospace;
+  opacity: 0.4;
+}
+*/
 
 
-add 
-like
-this
 a { color: #4183c4; text-decoration: none; }
       a:hover { text-decoration: underline; }
 
